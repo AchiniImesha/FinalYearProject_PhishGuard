@@ -1,0 +1,539 @@
+/* AuthModal Professional Styling & Animations */
+
+/* Backdrop */
+.auth-modal-backdrop {
+  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Plain Image Container - No Scroll */
+.auth-image-container {
+  animation: imageEntrance 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden !important;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.auth-image-container::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Left Panel No Scroll */
+.auth-left-panel-no-scroll {
+  overflow: hidden !important;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.auth-left-panel-no-scroll::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+.auth-left-panel-no-scroll * {
+  overflow: hidden !important;
+}
+
+.auth-image-container:hover {
+  transform: scale(1.01);
+}
+
+.auth-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  transition: all 0.3s ease;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  display: block;
+}
+
+/* Modal Container */
+.auth-modal-content {
+  animation: slideInScale 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Left Panel Constraints - No Scroll */
+.auth-modal-content > div:first-child {
+  overflow: hidden !important;
+  max-height: 100vh;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+.auth-modal-content > div:first-child::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+
+/* Close Button */
+.auth-modal-close {
+  animation: fadeInScale 0.3s ease-out 0.2s both;
+  transition: all 0.2s ease-in-out;
+}
+
+.auth-modal-close:hover {
+  transform: scale(1.1);
+  background-color: #f3f4f6;
+}
+
+/* Tab Animations */
+.auth-tab {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.auth-tab.active {
+  transform: translateY(-2px);
+}
+
+.auth-tab:hover {
+  transform: translateY(-1px);
+}
+
+/* Form Field Animations */
+.auth-input {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid #e5e7eb;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.auth-input:hover {
+  border-color: #d1d5db;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  transform: translateY(-1px);
+}
+
+.auth-input:focus {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.15);
+  border-color: #3b82f6;
+  outline: none;
+}
+
+/* Focus Ring Animation */
+.focus-ring {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.focus-ring:focus-within {
+  animation: focusRing 0.3s ease-out;
+}
+
+.focus-ring:focus-within::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 1rem;
+  background: linear-gradient(45deg, #3b82f6, #8b5cf6, #06b6d4);
+  opacity: 0.3;
+  z-index: -1;
+  animation: focusRingGlow 0.3s ease-out;
+}
+
+/* Button Animations */
+.auth-button {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.auth-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.auth-button:active {
+  transform: translateY(0);
+}
+
+.auth-button:disabled {
+  transform: none;
+  box-shadow: none;
+}
+
+/* Social Login Button Animations */
+.social-login-button {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 2px solid transparent;
+}
+
+.social-login-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-color: #e5e7eb;
+  background-color: #f9fafb;
+}
+
+/* Password Toggle Animation */
+.password-toggle {
+  transition: all 0.2s ease-in-out;
+}
+
+.password-toggle:hover {
+  transform: scale(1.15);
+  color: #374151;
+}
+
+/* Error Message Animation */
+.error-message {
+  animation: slideInShake 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+/* Loading Spinner */
+.loading-spinner {
+  animation: spin 1s linear infinite;
+}
+
+/* Modal Entrance Animation */
+.modal-entrance {
+  animation: modalEntrance 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Keyframe Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes slideInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.9) translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes slideInShake {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  60% {
+    transform: translateX(-5px);
+  }
+  70% {
+    transform: translateX(5px);
+  }
+  80% {
+    transform: translateX(-3px);
+  }
+  90% {
+    transform: translateX(3px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes modalEntrance {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@keyframes focusRing {
+  0% {
+    box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
+  }
+}
+
+@keyframes focusRingGlow {
+  0% {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(1.02);
+  }
+  100% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}
+
+@keyframes imageEntrance {
+  0% {
+    opacity: 0;
+    transform: scale(0.9) translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+
+
+/* Background Pattern */
+.bg-grid-pattern {
+  background-image: 
+    linear-gradient(rgba(59, 130, 246, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .auth-modal-content {
+    margin: 1rem;
+    max-height: calc(100vh - 2rem);
+    overflow-y: auto;
+  }
+  
+  .auth-image-container {
+    max-height: 65vh;
+    width: 100%;
+  }
+  
+  .auth-image-container img {
+    max-height: 55vh;
+    width: 100%;
+  }
+  
+  .auth-modal-content::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .auth-modal-content::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    border-radius: 3px;
+  }
+  
+  .auth-modal-content::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 3px;
+  }
+  
+  .auth-modal-content::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8;
+  }
+}
+
+@media (max-width: 768px) {
+  .auth-modal-content {
+    margin: 0.5rem;
+    border-radius: 1rem;
+    max-height: calc(100vh - 1rem);
+  }
+  
+  .social-login-button {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.875rem;
+  }
+  
+  .social-login-button span {
+    font-size: 0.8rem;
+  }
+  
+  .auth-input {
+    padding: 0.875rem 1rem;
+    font-size: 0.95rem;
+  }
+  
+  .auth-button {
+    padding: 0.875rem 1.5rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .auth-modal-content {
+    margin: 0.25rem;
+    border-radius: 0.75rem;
+    max-height: calc(100vh - 0.5rem);
+  }
+  
+  .auth-image-container {
+    max-height: 55vh;
+    width: 100%;
+    padding: 0.25rem;
+  }
+  
+  .auth-image-container img {
+    max-height: 45vh;
+    width: 100%;
+  }
+  
+  .social-login-button {
+    padding: 0.65rem 0.4rem;
+  }
+  
+  .social-login-button span {
+    font-size: 0.75rem;
+  }
+  
+  .auth-input {
+    padding: 0.8rem 0.875rem;
+    font-size: 0.9rem;
+  }
+  
+  .auth-button {
+    padding: 0.8rem 1.25rem;
+    font-size: 0.9rem;
+  }
+  
+  .auth-tab {
+    font-size: 0.9rem;
+  }
+}
+
+/* Enhanced Hover Effects */
+.auth-input:hover {
+  border-color: #d1d5db;
+}
+
+.auth-button:hover::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.auth-button:hover::before {
+  left: 100%;
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+  transition: all 0.2s ease-in-out;
+}
+
+input[type="checkbox"]:checked {
+  transform: scale(1.1);
+}
+
+/* Link Hover Effects */
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Separator Animation */
+.separator-line {
+  position: relative;
+  overflow: hidden;
+}
+
+.separator-line::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #e5e7eb, transparent);
+  transform: translateY(-50%);
+}
+
+/* Enhanced Focus States */
+.auth-input:focus,
+.social-login-button:focus,
+.auth-button:focus {
+  outline: none;
+  ring: 2px;
+  ring-color: #3b82f6;
+  ring-offset: 2px;
+}
+
+/* Smooth Transitions for All Interactive Elements */
+* {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+/* Custom Scrollbar for Modal */
+.auth-modal-content {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 #f1f5f9;
+}
+
+/* Loading State Enhancements */
+.auth-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.loading-spinner {
+  border-width: 2px;
+  border-style: solid;
+  border-color: currentColor;
+  border-top-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Error State Enhancements */
+.error-message {
+  border-left: 4px solid #ef4444;
+  background: linear-gradient(135deg, #fef2f2 0%, #fee2e2 100%);
+}
+
+/* Success State (for future use) */
+.success-message {
+  border-left: 4px solid #10b981;
+  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  animation: slideInSuccess 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+@keyframes slideInSuccess {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} 
