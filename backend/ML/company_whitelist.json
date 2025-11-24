@@ -1,0 +1,470 @@
+{
+  "companies": {
+    "dialog": {
+      "domains": [
+        "dialog.lk",
+        "dialog.lk"
+      ],
+      "keywords": [
+        "dialog",
+        "dialog.lk"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Dialog Axiata PLC - Sri Lankan telecommunications company"
+    },
+    "mobitel": {
+      "domains": [
+        "mobitel.lk",
+        "mobitel.lk"
+      ],
+      "keywords": [
+        "mobitel",
+        "mobitel.lk"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Mobitel - Sri Lankan mobile network operator"
+    },
+    "hutch": {
+      "domains": [
+        "hutch.lk",
+        "hutch.lk"
+      ],
+      "keywords": [
+        "hutch",
+        "hutch.lk"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Hutch - Sri Lankan telecommunications company"
+    },
+    "airtel": {
+      "domains": [
+        "airtel.lk",
+        "airtel.lk"
+      ],
+      "keywords": [
+        "airtel",
+        "airtel.lk"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Airtel Lanka - Sri Lankan telecommunications company"
+    },
+    "slt": {
+      "domains": [
+        "slt.lk",
+        "slt.lk"
+      ],
+      "keywords": [
+        "slt",
+        "slt.lk",
+        "sri lanka telecom"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Sri Lanka Telecom"
+    },
+    "ceb": {
+      "domains": [
+        "ceb.lk",
+        "ceb.lk"
+      ],
+      "keywords": [
+        "ceb",
+        "ceb.lk",
+        "ceylon electricity board"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Ceylon Electricity Board"
+    },
+    "lankabell": {
+      "domains": [
+        "lankabell.lk",
+        "lankabell.lk"
+      ],
+      "keywords": [
+        "lankabell",
+        "lankabell.lk"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Lanka Bell - Sri Lankan telecommunications company"
+    },
+    "google": {
+      "domains": [
+        "google.com",
+        "gmail.com",
+        "googleusercontent.com"
+      ],
+      "keywords": [
+        "google",
+        "gmail"
+      ],
+      "confidence_boost": 0.4,
+      "description": "Google Inc."
+    },
+    "microsoft": {
+      "domains": [
+        "microsoft.com",
+        "outlook.com",
+        "hotmail.com"
+      ],
+      "keywords": [
+        "microsoft",
+        "outlook",
+        "hotmail"
+      ],
+      "confidence_boost": 0.4,
+      "description": "Microsoft Corporation"
+    },
+    "apple": {
+      "domains": [
+        "apple.com",
+        "icloud.com"
+      ],
+      "keywords": [
+        "apple",
+        "icloud"
+      ],
+      "confidence_boost": 0.4,
+      "description": "Apple Inc."
+    },
+    "amazon": {
+      "domains": [
+        "amazon.com",
+        "amazon.in",
+        "amazon.co.uk"
+      ],
+      "keywords": [
+        "amazon"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Amazon.com Inc."
+    },
+    "facebook": {
+      "domains": [
+        "facebook.com",
+        "meta.com"
+      ],
+      "keywords": [
+        "facebook",
+        "meta"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Meta Platforms Inc."
+    },
+    "linkedin": {
+      "domains": [
+        "linkedin.com"
+      ],
+      "keywords": [
+        "linkedin"
+      ],
+      "confidence_boost": 0.3,
+      "description": "LinkedIn Corporation"
+    },
+    "twitter": {
+      "domains": [
+        "twitter.com",
+        "x.com"
+      ],
+      "keywords": [
+        "twitter",
+        "x.com"
+      ],
+      "confidence_boost": 0.3,
+      "description": "X Corp (formerly Twitter)"
+    },
+    "paypal": {
+      "domains": [
+        "paypal.com"
+      ],
+      "keywords": [
+        "paypal"
+      ],
+      "confidence_boost": 0.2,
+      "description": "PayPal Holdings Inc."
+    },
+    "stripe": {
+      "domains": [
+        "stripe.com"
+      ],
+      "keywords": [
+        "stripe"
+      ],
+      "confidence_boost": 0.2,
+      "description": "Stripe Inc."
+    },
+    "boc": {
+      "domains": [
+        "boc.lk"
+      ],
+      "keywords": [
+        "boc",
+        "bank of ceylon"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Bank of Ceylon"
+    },
+    "peoples_bank": {
+      "domains": [
+        "peoplesbank.lk"
+      ],
+      "keywords": [
+        "peoples bank",
+        "peoplesbank"
+      ],
+      "confidence_boost": 0.3,
+      "description": "People's Bank"
+    },
+    "commercial_bank": {
+      "domains": [
+        "combank.lk"
+      ],
+      "keywords": [
+        "commercial bank",
+        "combank"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Commercial Bank of Ceylon"
+    },
+    "hatton_national_bank": {
+      "domains": [
+        "hnb.lk"
+      ],
+      "keywords": [
+        "hatton national bank",
+        "hnb"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Hatton National Bank"
+    },
+    "sampath_bank": {
+      "domains": [
+        "sampath.lk"
+      ],
+      "keywords": [
+        "sampath bank",
+        "sampath"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Sampath Bank"
+    },
+    "ndb": {
+      "domains": [
+        "ndbbank.com"
+      ],
+      "keywords": [
+        "ndb",
+        "national development bank"
+      ],
+      "confidence_boost": 0.3,
+      "description": "National Development Bank"
+    },
+    "dfcc": {
+      "domains": [
+        "dfcc.lk"
+      ],
+      "keywords": [
+        "dfcc",
+        "dfcc bank"
+      ],
+      "confidence_boost": 0.3,
+      "description": "DFCC Bank"
+    },
+    "seylan_bank": {
+      "domains": [
+        "seylan.lk"
+      ],
+      "keywords": [
+        "seylan bank",
+        "seylan"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Seylan Bank"
+    },
+    "union_bank": {
+      "domains": [
+        "unionbank.lk"
+      ],
+      "keywords": [
+        "union bank",
+        "unionbank"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Union Bank of Colombo"
+    },
+    "pan_asia_bank": {
+      "domains": [
+        "panasiabank.lk"
+      ],
+      "keywords": [
+        "pan asia bank",
+        "panasiabank"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Pan Asia Banking Corporation"
+    },
+    "ntb": {
+      "domains": [
+        "ntb.lk"
+      ],
+      "keywords": [
+        "ntb",
+        "nation trust bank"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Nations Trust Bank"
+    },
+    "cargills_bank": {
+      "domains": [
+        "cargillsbank.com"
+      ],
+      "keywords": [
+        "cargills bank",
+        "cargillsbank"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Cargills Bank"
+    },
+    "sdb_bank": {
+      "domains": [
+        "sdb.lk"
+      ],
+      "keywords": [
+        "sdb bank",
+        "sdb"
+      ],
+      "confidence_boost": 0.3,
+      "description": "SDB Bank"
+    },
+    "aiken_spence": {
+      "domains": [
+        "aikenspence.lk"
+      ],
+      "keywords": [
+        "aiken spence",
+        "aikenspence"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Aitken Spence Bank"
+    },
+    "citibank": {
+      "domains": [
+        "citibank.com",
+        "citibank.lk"
+      ],
+      "keywords": [
+        "citibank",
+        "citi"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Citibank"
+    },
+    "hsbc": {
+      "domains": [
+        "hsbc.com",
+        "hsbc.lk"
+      ],
+      "keywords": [
+        "hsbc"
+      ],
+      "confidence_boost": 0.3,
+      "description": "HSBC Bank"
+    },
+    "standard_chartered": {
+      "domains": [
+        "sc.com",
+        "standardchartered.com"
+      ],
+      "keywords": [
+        "standard chartered",
+        "standardchartered"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Standard Chartered Bank"
+    },
+    "daraz": {
+      "domains": [
+        "daraz.lk"
+      ],
+      "keywords": [
+        "daraz"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Daraz - E-commerce platform"
+    },
+    "kapruka": {
+      "domains": [
+        "kapruka.com"
+      ],
+      "keywords": [
+        "kapruka"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Kapruka - E-commerce platform"
+    },
+    "pickme": {
+      "domains": [
+        "pickme.lk"
+      ],
+      "keywords": [
+        "pickme"
+      ],
+      "confidence_boost": 0.3,
+      "description": "PickMe - Ride-hailing service"
+    },
+    "uber": {
+      "domains": [
+        "uber.com"
+      ],
+      "keywords": [
+        "uber"
+      ],
+      "confidence_boost": 0.3,
+      "description": "Uber Technologies Inc."
+    },
+    "ird": {
+      "domains": [
+        "ird.gov.lk"
+      ],
+      "keywords": [
+        "ird",
+        "inland revenue department"
+      ],
+      "confidence_boost": 0.4,
+      "description": "Inland Revenue Department of Sri Lanka"
+    },
+    "immigration": {
+      "domains": [
+        "immigration.gov.lk"
+      ],
+      "keywords": [
+        "immigration",
+        "department of immigration"
+      ],
+      "confidence_boost": 0.4,
+      "description": "Department of Immigration and Emigration"
+    },
+    "police": {
+      "domains": [
+        "police.lk"
+      ],
+      "keywords": [
+        "police",
+        "sri lanka police"
+      ],
+      "confidence_boost": 0.4,
+      "description": "Sri Lanka Police"
+    },
+    "customs": {
+      "domains": [
+        "customs.gov.lk"
+      ],
+      "keywords": [
+        "customs",
+        "department of customs"
+      ],
+      "confidence_boost": 0.4,
+      "description": "Department of Customs"
+    }
+  },
+  "last_updated": "2025-08-23T13:05:31.005072",
+  "version": "1.0.0"
+}
