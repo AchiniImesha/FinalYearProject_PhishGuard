@@ -5,10 +5,19 @@ env/
 __pycache__/
 *.pyc
 
-# Ignore ML model files (optional, if large)
+# Ignore ML model files and large datasets
 *.joblib
 *.json
 
-# Ignore logs or temp files
+# Ignore logs and temp files
 *.log
 *.tmp
+
+# Ignore environment files
+.env
+backend/.env
+
+# Ignore editor/project specific files (optional)
+*.vscode/
+*.idea/
+*.DS_Store
