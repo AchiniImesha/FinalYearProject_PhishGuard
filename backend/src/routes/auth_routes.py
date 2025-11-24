@@ -10,12 +10,12 @@ from ..middleware.auth import token_required
 auth_bp = Blueprint('auth', __name__, url_prefix='/api/auth')
 
 # Google OAuth Configuration
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
+GOOGLE_CLIENT_ID = ""
+GOOGLE_CLIENT_SECRET = ""
+GOOGLE_REDIRECT_URI = ""
+GOOGLE_AUTH_URL = ""
+GOOGLE_TOKEN_URL = ""
+GOOGLE_USERINFO_URL = ""
 
 # Register routes
 @auth_bp.route('/register', methods=['POST'])

@@ -27,14 +27,14 @@ SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 # Gmail client configuration
 CLIENT_CONFIG = {
     'web': {
-        'client_id': '211446306286-r9p7ggd2f1kg5vpske23sj60277gb66o.apps.googleusercontent.com',
-        'project_id': 'optimal-tea-476510-e1',
-        'client_secret': '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',
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
-***REMOVED***
+        'client_id': '',
+        'project_id': '',
+        'client_secret': '',
+        'auth_uri': '',
+        'token_uri': '',
+        'auth_provider_x509_cert_url': '',
+        'redirect_uris': [os.environ.get('GOOGLE_REDIRECT_URI', '')],
+        'javascript_origins': [os.environ.get('', '')]
     }
 }
 
